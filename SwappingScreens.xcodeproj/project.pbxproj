@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		213C869F1DB004A9009F147D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213C869E1DB004A9009F147D /* AppDelegate.swift */; };
-		213C86A11DB004A9009F147D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213C86A01DB004A9009F147D /* ViewController.swift */; };
+		213C86A11DB004A9009F147D /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213C86A01DB004A9009F147D /* LoginVC.swift */; };
 		213C86A41DB004A9009F147D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 213C86A21DB004A9009F147D /* Main.storyboard */; };
 		213C86A61DB004A9009F147D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 213C86A51DB004A9009F147D /* Assets.xcassets */; };
 		213C86A91DB004A9009F147D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 213C86A71DB004A9009F147D /* LaunchScreen.storyboard */; };
+		213C86B11DB00935009F147D /* MusicListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213C86B01DB00935009F147D /* MusicListVC.swift */; };
+		213C86B31DB01106009F147D /* PlaySongVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213C86B21DB01106009F147D /* PlaySongVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		213C869B1DB004A9009F147D /* SwappingScreens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwappingScreens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		213C869E1DB004A9009F147D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		213C86A01DB004A9009F147D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		213C86A01DB004A9009F147D /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		213C86A31DB004A9009F147D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		213C86A51DB004A9009F147D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		213C86A81DB004A9009F147D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		213C86AA1DB004A9009F147D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		213C86B01DB00935009F147D /* MusicListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicListVC.swift; sourceTree = "<group>"; };
+		213C86B21DB01106009F147D /* PlaySongVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySongVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				213C869E1DB004A9009F147D /* AppDelegate.swift */,
-				213C86A01DB004A9009F147D /* ViewController.swift */,
+				213C86A01DB004A9009F147D /* LoginVC.swift */,
 				213C86A21DB004A9009F147D /* Main.storyboard */,
 				213C86A51DB004A9009F147D /* Assets.xcassets */,
 				213C86A71DB004A9009F147D /* LaunchScreen.storyboard */,
 				213C86AA1DB004A9009F147D /* Info.plist */,
+				213C86B01DB00935009F147D /* MusicListVC.swift */,
+				213C86B21DB01106009F147D /* PlaySongVC.swift */,
 			);
 			path = SwappingScreens;
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				213C86A11DB004A9009F147D /* ViewController.swift in Sources */,
+				213C86B11DB00935009F147D /* MusicListVC.swift in Sources */,
+				213C86A11DB004A9009F147D /* LoginVC.swift in Sources */,
+				213C86B31DB01106009F147D /* PlaySongVC.swift in Sources */,
 				213C869F1DB004A9009F147D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +307,7 @@
 				213C86AF1DB004A9009F147D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
